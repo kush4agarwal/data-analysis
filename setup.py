@@ -7,7 +7,7 @@ setup (
 	license='BSD',	
 	author='Kush Agarwal',
 	packages=find_packages(),
-	install_requires=['PyQt5', 'pandas', 'numpy', 'sqlalchemy', 'nltk', 'python-twitter', 'jupyter'],
+	install_requires=['PyQt5', 'pandas', 'numpy', 'SQLAlchemy', 'nltk', 'python-twitter', 'jupyter'],
 	entry_points={},
 	extras_require={'dev': ['flake8',]}, 
 )
